@@ -19,7 +19,7 @@ public class H2_main {
 			}
 		}
 		
-		System.out.println( jahr + " " + schalt);
+		//System.out.println( jahr + " " + schalt);
 
 	}
 

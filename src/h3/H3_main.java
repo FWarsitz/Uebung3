@@ -4,7 +4,7 @@ public class H3_main {
 
 	public static void main(String[] args) {
 		int max =5;
-		int fix = 2;
+		int fix = 5;
 		int wartend = 2;
 		boolean istVoll = false; 
 		
@@ -40,7 +40,7 @@ public class H3_main {
 			istVoll = true;
 		}
 		
-		System.out.println("Max: " + max + " Fix: "+ fix + " wartend: " + wartend + " istVoll: "+ istVoll);
+		//System.out.println("Max: " + max + " Fix: "+ fix + " wartend: " + wartend + " istVoll: "+ istVoll);
 	}
 
 }

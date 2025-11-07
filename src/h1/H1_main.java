@@ -40,7 +40,7 @@ public class H1_main {
 			warnhinweis = false;
 		}
 		
-		System.out.println("Guthabe: " + guthaben + " monEingang: " + monEingang + " rating :" +rating + " negativ :" +negativ + " warinhinweis :" + warnhinweis);
+		//System.out.println("Guthabe: " + guthaben + " monEingang: " + monEingang + " rating :" +rating + " negativ :" +negativ + " warinhinweis :" + warnhinweis);
 
 	}
 
