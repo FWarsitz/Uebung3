@@ -3,7 +3,7 @@ package h1;
 public class H1_main {
 
 	public static void main(String[] args) {
-		double guthaben = -100;
+		double guthaben = -1100;
 		double monEingang = 200;
 		int rating = 0;
 		boolean warnhinweis = false;
@@ -25,15 +25,15 @@ public class H1_main {
 			rating += 2;
 		}
 		
-		if (negativ = true && monEingang + guthaben >= 0) {
+		if (negativ == true && monEingang >= Math.abs(guthaben)) {
 			rating += 1;
 		}
 		
-		if (negativ = true && monEingang + guthaben <= 0) {
+		if (negativ == true && monEingang < Math.abs(guthaben)) {
 			rating -= 1;
 		}
 		
-		if (negativ = true && monEingang + guthaben <= 0 && rating < 0) {
+		if (negativ == true && monEingang < Math.abs(guthaben) && rating < 0) {
 			warnhinweis = true;
 		}
 		else {
